@@ -21,18 +21,16 @@ The published dataset comprises a comprehensive collection of kinematic and kine
 
 ## Basic Scripts
 
-* `process_error_vicon.py`: Iteratively evaluates the error of the five classical zero-velocity detectors when their optimized zero-velocity outputs are used. The results are saved in `results/vicon_results_raw.csv`.
-
-* `train_motion_classifier.py`: Trains a three-class motion classifier (walk vs. run vs. stairs) using a subset of the training data, and will reproduce the accuracy of the classifier for the validation set.
+* `plot_detection.py`: . The results can ba saved in `.png`.
 
 
 ## Reproduction of Paper Results
 
-We have included two scripts that reproduce the main results in our paper:
+We have included the scripts that reproduce the main results of the papers written from this dataset:
 
-* `process_error_hallway.py`
+* `semiogram_features.py` and `semiogram_plot.py`
 
-* `plot_hallway_data.py` 
+* `semio.py` 
 
 
 ## Citation
